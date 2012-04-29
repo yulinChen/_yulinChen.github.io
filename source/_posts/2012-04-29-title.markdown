@@ -1,0 +1,9 @@
+---
+latout: post
+title: "Alain's blog"
+date: 2012-04-29 19:21
+comment: true
+categories:
+---
+
+Hello World
