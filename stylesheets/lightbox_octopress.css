@@ -1,0 +1,56 @@
+.imageRow {
+  *zoom: 1;
+  margin: 20px 0;
+  content: "";
+  display: table;
+  clear: both;
+}
+.imageRow .set {
+  float: left;
+  background: rgba(255, 255, 255, 0.1);
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+.imageRow .set:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+.imageRow .single {
+  float: left;
+  width: 160px;
+  height: 160px;
+}
+.imageRow .single a {
+  float: left;
+  display: block;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 7px;
+  line-height: 1em;
+  -webkit-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.5);
+  margin-right: 40px;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+.imageRow .set .single a {
+  background: none;
+  width: 160px;
+  height: 160px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  margin-right: 0;
+}
+.imageRow .set .single a img:hover {
+  background: none;
+  border-color: #8ad459;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
